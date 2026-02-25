@@ -4,6 +4,10 @@
   "private": true,
   "description": "Man-tra App",
   "main": "index.js",
+  "engines": {
+    "node": "16.20.2",
+    "npm": "8.19.4"
+  },
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
     "build": "webpack --mode production",
@@ -21,8 +25,9 @@
     "clean-webpack-plugin": "^3.0.0",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "0.63.4",
     "react-native-web": "^0.12.3",
     "shortid": "^2.2.15",
     "webpack": "^4.43.0",
